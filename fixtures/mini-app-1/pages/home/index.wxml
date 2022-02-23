@@ -1,0 +1,5 @@
+<include src="./header" />
+<import src="./templates.wxml" />
+<view class="name">123</view>
+<wxs src="./tool.wxs" module="tools" />
+<view class="{{tools.name}}" />

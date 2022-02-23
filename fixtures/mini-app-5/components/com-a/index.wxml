@@ -1,0 +1,6 @@
+<image src="/assets/demo.png" />
+<image src="../../assets/demo.png" />
+<include src="./header" />
+
+<view class="name">123</view>
+<view class="{{tools.name}}" />

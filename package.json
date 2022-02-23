@@ -1,0 +1,71 @@
+{
+  "name": "mini-optimizer",
+  "version": "1.0.0",
+  "description": "小程序包大小优化工具",
+  "main": "lib/index.js",
+  "bin": {
+    "optimize": "lib/bin.js"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "keywords": [
+    "mini app",
+    "minifier",
+    "compress"
+  ],
+  "scripts": {
+    "test": "jest --collect-coverage",
+    "build": "rm -rf lib && tsc",
+    "ci": "npm run lint && jest --collect-coverage --json > node_modules/.tap.json",
+    "lint": "eslint src --ext .ts --quiet",
+    "lint-staged": "lint-staged",
+    "prepublishOnly": "npm run build",
+    "prepare": "husky install"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.15.8",
+    "@babel/parser": "^7.15.4",
+    "@babel/traverse": "^7.15.4",
+    "@babel/types": "^7.16.8",
+    "@types/babel__traverse": "^7.14.2",
+    "@types/cssnano": "^5.0.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^7.2.0",
+    "@types/html-minifier": "^4.0.2",
+    "@types/micromatch": "^4.0.2",
+    "@types/node": "^17.0.19",
+    "babel-preset-minify": "^0.5.1",
+    "commander": "^8.3.0",
+    "cssnano": "^5.0.16",
+    "domhandler": "^4.2.2",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "html-minifier": "^4.0.0",
+    "htmlparser2": "^7.1.1",
+    "micromatch": "^4.0.4",
+    "postcss": "^8.3.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "jest": "^27.1.0",
+    "lint-staged": "^12.2.1",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.5.4"
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}

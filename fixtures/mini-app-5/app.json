@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [{
+    "root": "pages/home",
+    "pages": [
+      "index"
+    ]
+  }],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lightshop/index",
+        "text": "首页",
+        "iconPath": "assets/tab/home.png",
+        "selectedIconPath": "assets/tab/home_select.png"
+      },
+      {
+        "pagePath": "pages/orderfood/index",
+        "text": "点餐",
+        "iconPath": "assets/tab/demo.png",
+        "selectedIconPath": "assets/tab/demo_select.png"
+      }
+    ]
+  }
+}

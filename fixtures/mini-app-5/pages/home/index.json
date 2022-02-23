@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "com-a": "/components/com-a/index"
+  }
+}

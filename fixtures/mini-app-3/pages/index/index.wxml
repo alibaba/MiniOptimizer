@@ -1,0 +1,20 @@
+<include src="./header" />
+<import src="./templates.wxml" />
+<wxs src="./tool.wxs" module="tools" />
+
+
+
+
+
+
+
+<include src="/pages/index/header" />
+<import src="/pages/index/templates.wxml" />
+<wxs src="/pages/index/tool.wxs" module="tools" />
+
+<view dot />
+<view class="name">123</view>
+<view class="{{tools.name ? 'a' : 'b'}}" imageStyle="{{ recommendedDishesData.titleImage ? 'height: 100rpx;padding: 0rpx;margin-bottom: 0rpx' : ''}}" />
+<template is="test" data="{{ ...a, bc, d, e  }}"></template>
+<view class="name" a="{{ {name: 1} }}">{{ a ? 1 : 2 }}</view>
+<view class="name" a="{{true}}">{{ a ? 1 : 2 }}</view>

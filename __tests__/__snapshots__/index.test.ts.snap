@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic 1`] = `
+Array [
+  "__entry__.js",
+  "abc.json",
+  "app.js",
+  "app.json",
+  "common/config.js",
+  "common/d.js",
+  "others/a.js",
+  "others/b.js",
+  "pages/home/_/assets/demo.png",
+  "pages/home/_/common/a.js",
+  "pages/home/_/common/b.js",
+  "pages/home/_/common/c.js",
+  "pages/home/_/components/com-a/header.wxml",
+  "pages/home/_/components/com-a/index.js",
+  "pages/home/_/components/com-a/index.json",
+  "pages/home/_/components/com-a/index.wxml",
+  "pages/home/_/components/com-a/index.wxss",
+  "pages/home/_/styles/b.wxss",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "pages/index/header.wxml",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+  "pages/index/templates.wxml",
+  "pages/index/tool.wxs",
+]
+`;
+
+exports[`basic 2`] = `
+Array [
+  "__entry__.js",
+  "abc.json",
+  "app.js",
+  "app.json",
+  "common/config.js",
+  "common/d.js",
+  "others/a.js",
+  "others/b.js",
+  "pages/index/header.wxml",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+  "pages/index/templates.wxml",
+  "pages/index/tool.wxs",
+]
+`;
+
+exports[`basic 3`] = `
+Array [
+  "__entry__.js",
+  "app.js",
+  "app.json",
+  "assets/tab/demo.png",
+  "assets/tab/demo_select.png",
+  "assets/tab/home.png",
+  "assets/tab/home_select.png",
+  "common/config.js",
+  "others/a.js",
+  "others/b.js",
+  "pages/index/header.wxml",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+  "pages/index/templates.wxml",
+  "pages/index/tool.wxs",
+]
+`;
+
+exports[`basic 4`] = `
+Array [
+  "abc.json",
+  "common/d.js",
+]
+`;
+
+exports[`basic 5`] = `
+Array [
+  "abc.json",
+  "common/d.js",
+]
+`;
+
+exports[`basic 6`] = `
+Array [
+  "pages/home/_/assets/demo.png",
+  "pages/home/_/common/a.js",
+  "pages/home/_/common/b.js",
+  "pages/home/_/common/c.js",
+  "pages/home/_/components/com-a/header.wxml",
+  "pages/home/_/components/com-a/index.js",
+  "pages/home/_/components/com-a/index.json",
+  "pages/home/_/components/com-a/index.wxml",
+  "pages/home/_/components/com-a/index.wxss",
+  "pages/home/_/styles/b.wxss",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+]
+`;
+
+exports[`minfiy js 1`] = `
+Array [
+  "__entry__.js",
+  "abc.json",
+  "app.js",
+  "app.json",
+  "common/config.js",
+  "common/d.js",
+  "others/a.js",
+  "others/b.js",
+  "pages/home/_/assets/demo.png",
+  "pages/home/_/common/a.js",
+  "pages/home/_/common/b.js",
+  "pages/home/_/common/c.js",
+  "pages/home/_/components/com-a/header.wxml",
+  "pages/home/_/components/com-a/index.js",
+  "pages/home/_/components/com-a/index.json",
+  "pages/home/_/components/com-a/index.wxml",
+  "pages/home/_/components/com-a/index.wxss",
+  "pages/home/_/styles/b.wxss",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "pages/index/header.wxml",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+  "pages/index/templates.wxml",
+  "pages/index/tool.wxs",
+]
+`;
+
+exports[`removeUselessFiles  1`] = `
+Array [
+  "__entry__.js",
+  "app.js",
+  "app.json",
+  "common/config.js",
+  "others/a.js",
+  "others/b.js",
+  "pages/home/_/assets/demo.png",
+  "pages/home/_/common/a.js",
+  "pages/home/_/common/b.js",
+  "pages/home/_/common/c.js",
+  "pages/home/_/components/com-a/header.wxml",
+  "pages/home/_/components/com-a/index.js",
+  "pages/home/_/components/com-a/index.json",
+  "pages/home/_/components/com-a/index.wxml",
+  "pages/home/_/components/com-a/index.wxss",
+  "pages/home/_/styles/b.wxss",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "pages/index/header.wxml",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+  "pages/index/templates.wxml",
+  "pages/index/tool.wxs",
+]
+`;
+
+exports[`rename files 1`] = `
+Array [
+  "a.js",
+  "app.js",
+  "app.json",
+  "b.js",
+  "c.js",
+  "d.js",
+  "i.wxml",
+  "j.wxml",
+  "k.wxs",
+  "pages/home/_/assets/demo.png",
+  "pages/home/_/common/a.js",
+  "pages/home/_/common/b.js",
+  "pages/home/_/common/c.js",
+  "pages/home/_/components/com-a/header.wxml",
+  "pages/home/_/components/com-a/index.js",
+  "pages/home/_/components/com-a/index.json",
+  "pages/home/_/components/com-a/index.wxml",
+  "pages/home/_/components/com-a/index.wxss",
+  "pages/home/_/styles/b.wxss",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+]
+`;
+
+exports[`rename files 2`] = `
+Array [
+  "a.js",
+  "app.js",
+  "app.json",
+  "b.js",
+  "c.js",
+  "d.js",
+  "i.wxml",
+  "j.wxml",
+  "k.wxs",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+]
+`;
+
+exports[`rename files 3`] = `
+Array [
+  "a.js",
+  "app.js",
+  "app.json",
+  "b.js",
+  "c.js",
+  "d.js",
+  "e.png",
+  "f.png",
+  "g.png",
+  "h.png",
+  "i.wxml",
+  "j.wxml",
+  "k.wxs",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+]
+`;
+
+exports[`rename files 4`] = `Array []`;
+
+exports[`rename files 5`] = `
+Array [
+  "pages/home/_/assets/demo.png",
+  "pages/home/_/common/a.js",
+  "pages/home/_/common/b.js",
+  "pages/home/_/common/c.js",
+  "pages/home/_/components/com-a/header.wxml",
+  "pages/home/_/components/com-a/index.js",
+  "pages/home/_/components/com-a/index.json",
+  "pages/home/_/components/com-a/index.wxml",
+  "pages/home/_/components/com-a/index.wxss",
+  "pages/home/_/styles/b.wxss",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+]
+`;
+
+exports[`uselessExculdes 1`] = `
+Array [
+  "__entry__.js",
+  "abc.json",
+  "app.js",
+  "app.json",
+  "common/config.js",
+  "others/a.js",
+  "others/b.js",
+  "pages/home/_/assets/demo.png",
+  "pages/home/_/common/a.js",
+  "pages/home/_/common/b.js",
+  "pages/home/_/common/c.js",
+  "pages/home/_/components/com-a/header.wxml",
+  "pages/home/_/components/com-a/index.js",
+  "pages/home/_/components/com-a/index.json",
+  "pages/home/_/components/com-a/index.wxml",
+  "pages/home/_/components/com-a/index.wxss",
+  "pages/home/_/styles/b.wxss",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "pages/index/header.wxml",
+  "pages/index/index.js",
+  "pages/index/index.json",
+  "pages/index/index.wxml",
+  "pages/index/index.wxss",
+  "pages/index/templates.wxml",
+  "pages/index/tool.wxs",
+]
+`;

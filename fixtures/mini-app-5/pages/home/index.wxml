@@ -1,0 +1,23 @@
+<include src="./header" />
+<import src="./templates.wxml" />
+<wxs src="./tool.wxs" module="tools" />
+
+
+
+
+
+
+
+<include src="/pages/home/header" />
+<import src="/pages/home/templates.wxml" />
+<wxs src="/pages/home/tool.wxs" module="tools" />
+
+<view dot />
+<view class="name">123</view>
+<view class="{{tools.name}}" />
+
+<com-a>1233</com-a>
+<com-a name="1">1233</com-a>
+<com-a
+  name="1"
+>1233</com-a>

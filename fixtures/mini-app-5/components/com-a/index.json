@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "com-c": "plugin://a123"
+  }
+}

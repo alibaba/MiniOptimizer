@@ -1,0 +1,4 @@
+<template name="test">
+  <view>test</view>
+  <cook-image default-source="/assets/demo.png" />
+</template>

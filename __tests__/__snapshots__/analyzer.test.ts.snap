@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New Analyze only main 1`] = `
+Array [
+  "abc.json",
+  "app.js",
+  "app.json",
+  "app.wxss",
+  "assets/demo.png",
+  "common/a.js",
+  "common/b.js",
+  "common/c.js",
+  "common/config.js",
+  "common/d.js",
+  "components/comp-a/index.js",
+  "components/comp-a/index.json",
+  "components/comp-a/index.wxml",
+  "components/comp-a/index.wxss",
+  "ext.json",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "project.config.json",
+  "sitemap.json",
+  "styles/b.wxss",
+]
+`;
+
+exports[`New Analyze only main 2`] = `
+Array [
+  "abc.json",
+  "app.js",
+  "app.json",
+  "app.wxss",
+  "assets/demo.png",
+  "common/a.js",
+  "common/b.js",
+  "common/c.js",
+  "common/config.js",
+  "common/d.js",
+  "components/comp-a/index.js",
+  "components/comp-a/index.json",
+  "components/comp-a/index.wxml",
+  "components/comp-a/index.wxss",
+  "ext.json",
+  "pages/home/header.wxml",
+  "pages/home/index.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/index.wxss",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "project.config.json",
+  "sitemap.json",
+  "styles/b.wxss",
+]
+`;
+
+exports[`New Analyze only main 3`] = `
+Array [
+  "app.js",
+  "common/config.js",
+  "others/a.js",
+  "others/b.js",
+  "app.json",
+  "app.wxss",
+  "pages/home/index.js",
+  "common/a.js",
+  "common/b.js",
+  "common/c.js",
+  "pages/home/index.json",
+  "pages/home/index.wxml",
+  "pages/home/header.wxml",
+  "assets/demo.png",
+  "pages/home/templates.wxml",
+  "pages/home/tool.wxs",
+  "pages/home/index.wxss",
+  "styles/b.wxss",
+  "sitemap.json",
+  "ext.json",
+  "project.config.json",
+]
+`;
+
+exports[`New Analyze only main 4`] = `
+Array [
+  "abc.json",
+  "common/d.js",
+  "components/comp-a/index.js",
+  "components/comp-a/index.json",
+  "components/comp-a/index.wxml",
+  "components/comp-a/index.wxss",
+]
+`;
+
+exports[`New Analyze only main 5`] = `
+Array [
+  "abc.json",
+  "common/d.js",
+  "components/comp-a/index.js",
+  "components/comp-a/index.json",
+  "components/comp-a/index.wxml",
+  "components/comp-a/index.wxss",
+]
+`;
